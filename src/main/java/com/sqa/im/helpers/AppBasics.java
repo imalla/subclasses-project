@@ -38,4 +38,10 @@ public class AppBasics {
 		return scanner.nextLine();
 	}
 
+	public static String requestUserInfo(String question) {
+		System.out.print(question + " ");
+		String response = scanner.nextLine();
+		return response;
+	}
+
 }
